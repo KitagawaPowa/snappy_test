@@ -8,7 +8,7 @@ resource "aws_instance" "example" {
   
  tags = {
    Name = "terraform-example"
-   
+   CostCenter = "passport"
   }
 }
 
