@@ -8,7 +8,7 @@ resource "aws_instance" "example" {
   count = 2
   
  tags = {
-   Name = "terraform-example"
+   Name = "terraform-vcs_driven"
   }
 }
 
