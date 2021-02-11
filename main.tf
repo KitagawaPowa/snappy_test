@@ -5,7 +5,7 @@ provider "aws" {
 resource "aws_instance" "example" {
   ami           = "ami-005c06c6de69aee84"
   instance_type = "t2.micro"
-  count = 2
+  count = 1
   
  tags = {
    Name = "terraform-vcs_driven"
