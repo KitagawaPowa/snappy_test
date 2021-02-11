@@ -8,7 +8,7 @@ resource "aws_instance" "example" {
   count = 3
   
  tags = {
-   Name = "terraform-vcs_driven"
+   Name = "terraform-ui-driven"
    CostCenter = "Cloud Ops"
   }
 }
