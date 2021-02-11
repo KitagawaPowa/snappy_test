@@ -9,7 +9,6 @@ resource "aws_instance" "example" {
   
  tags = {
    Name = "terraform-ui-driven"
-   CostCenter = "Cloud Ops"
   }
 }
 
